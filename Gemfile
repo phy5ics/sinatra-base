@@ -5,7 +5,7 @@ gem 'sinatra'
 gem 'unicorn'
 gem 'haml'
 gem 'sass'
-gem 'mongoid'
+gem 'mongoid', :git => 'git://github.com/mongoid/mongoid.git'
 gem 'sinatra-flash'
 gem 'simplecov'
 
