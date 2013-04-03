@@ -28,7 +28,7 @@ module Base
    
     get '/' do
 			@js = ['/js/jquery-1.9.1.min.js']
-			@css = ['/css/global.css']
+			@css = ['/css/base.css']
       haml :index
     end
 

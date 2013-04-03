@@ -1,0 +1,26 @@
+@mixin isBlock
+	display: block
+	overflow: hidden
+	position: relative
+
+@mixin isLeftBlock
+	+isBlock
+	float: left
+
+@mixin isRightBlock
+	+isBlock
+	float: left
+
+@mixin isIR
+	+isBlock
+	text-indent: -9999em
+
+@mixin absolute
+	position: absolute
+	top: 0
+	left: 0
+
+@mixin absoluteBottom
+	position: absolute
+	bottom: 0
+	left: 0
